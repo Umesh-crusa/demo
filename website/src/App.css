@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #343942;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.accordion-body1{
+  background-image: url('./img/01.jpg');
+  position: fixed;
+  color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-width:100%;
+  min-height:100%;
+}
+@media (max-width:900px) {
+  .accordion-body1{
+    background-size: contain;
+  }
+  
+}
+.col{
+  background-color: blue;
+  border-radius: 15px;
+  border: 4px solid green
+}
+.main{
+  border: 4px solid rgb(224, 65, 65);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: rgb(211, 134, 0);
+  background-color: #84a4e079;
+}
+#mybox{
+  background-color: rgba(151, 27, 240, 0.333);
+  color: rgb(255, 0, 140);
+}
